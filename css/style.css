@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: cornflowerblue;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px
+}
+
+.banner{
+    width: 100%;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2009/09/GettyImages-884671854-4946bb3.jpg?quality=90&resize=960%2C408");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+}
+
+.title1{
+    color: white;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.banner2{
+    width: 100%;
+    background-color:cornflowerblue;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph1{
+    color: white;
+    margin: 8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle{
+    color: white;
+    margin: 8px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+.box{
+    height: 200px;
+    width: 25%;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-width: 25px;
+    border-top-color: royalblue;
+    font-size: 25px;
+}
+
+.container2{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    height: 300px;
+    width: 30%;
+    margin: 75px;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top-style: solid;
+    border-top-width: 25px;
+    border-top-color: royalblue;
+    font-size: 25px;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: cornflowerblue;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
